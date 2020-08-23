@@ -29,6 +29,9 @@ gem 'foreman', '~> 0.87.1'
 # Use Devise gem for authentications
 gem 'devise'
 
+# Use Redis gem for action cable
+gem 'redis', '~> 4.2', '>= 4.2.1'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
